@@ -1,0 +1,4 @@
+run = "echo hello"
+
+[nix]
+channel = "stable-21_11"
