@@ -1,4 +1,4 @@
-run = "echo hello"
+run = "echo Run restore.sh at first."
 
 [nix]
 channel = "stable-21_11"

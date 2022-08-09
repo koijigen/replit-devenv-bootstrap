@@ -1,0 +1,5 @@
+*
+!.gitignore
+!restore.sh
+!.replit
+!replit.nix
