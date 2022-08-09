@@ -5,7 +5,6 @@ export PJT_HOME=`pwd`
 
 cp $PJT_HOME/dotfiles/.bashrc ~/.bashrc
 cp $PJT_HOME/dotfiles/.vim/.vimrc ~/.vimrc
-cp $PJT_HOME/dotfiles/.bash_history ~/.bash_history
 cp $PJT_HOME/dotfiles/.tmux.conf ~/.tmux.conf
 
 sed -e '1s/^/let \$VIM = \"$PJT_HOME\/dotfiles\/.vim\"\n/g' $PJT_HOME/dotfiles/.vim/.vimrc > ~/.vimrc
