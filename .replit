@@ -1,4 +1,4 @@
-run = "echo 1. Clone this repository. 2. mv files following to replit project home directory : restore.sh, .replit, replit.nix . 3. `cd ~ && . restore.sh` ."
+run = "echo 1. Clone this repository. 2. mv files following to replit project home directory : restore.sh, .replit, replit.nix . 3. `cd your-repl-project-home && . restore.sh` ."
 
 [nix]
 channel = "stable-21_11"
